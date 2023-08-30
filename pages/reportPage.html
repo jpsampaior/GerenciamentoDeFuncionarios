@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robson Construções - Relatório Funcionários</title>
+    <link rel="stylesheet" href="../styles/secondaryPages.css">
+    <link rel="stylesheet" href="../styles/reportPage.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> 
+    <script src="..\scripts\global.js"></script>
+    <script src="..\scripts\reportPage.js"></script>
+</head>
+<body>
+    <a href="menu.html"><img id="backButton" width="32" height="32" src="https://img.icons8.com/windows/32/circled-left-2.png" alt="circled-left-2"/></a>
+    
+
+    <div class="contentBox">
+        <div id="title">
+            <h1>Robson Construções</h1>
+            <h2>Departamento Pessoal</h2>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <div class="cardContent">
+                    <div class="cardTitle">
+                        <h3>Relatório de Funcionários</h3>
+                        <p>Para gerar uma lista de todos os funcionários contratados, pressione o botão abaixo</p>
+                    </div>
+
+                    <table id="employessTable">
+                        <tr>
+                            <th>Nome</th>
+                            <th>Código</th>
+                            <th>Código de Cargo</th>
+                        </tr>
+                    </table>
+
+                    <div class="submitContent">
+                        <input class="btn" type="button" value="Listar">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

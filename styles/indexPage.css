@@ -1,0 +1,25 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    height:97vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    height: 5vh;
+    width: 11vh;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color:deepskyblue;
+
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+    transition: 0.3s;
+}

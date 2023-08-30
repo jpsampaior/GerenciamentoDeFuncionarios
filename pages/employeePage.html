@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robson Construções - Cadastrar Funcionário</title>
+    <link rel="stylesheet" href="../styles/secondaryPages.css">
+    <link rel="stylesheet" href="../styles/employeePage.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> 
+    <script src="..\scripts\global.js"></script>
+    <script src="..\scripts\employeePage.js"></script>
+</head>
+<body>
+    <a href="menu.html"><img id="backButton" width="32" height="32" src="https://img.icons8.com/windows/32/circled-left-2.png" alt="circled-left-2"/></a>
+
+    <div class="contentBox">
+        <div id="title">
+            <h1>Robson Construções</h1>
+            <h2>Departamento Pessoal</h2>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <div class="cardContent">
+                    <div class="cardTitle">
+                        <h3>Cadastrar Funcionário</h3>
+                        <p>Para cadastrar um novo funcionário insira o nome e código do Funcionário, além do código do cargo</p>
+                    </div>
+                    
+                    <div class="inputContent">
+                        <div class="line">
+                            <h4>Nome:</h4><input type="text" name="name" id="ipEmpName">
+                        </div>
+                        <div class="line">
+                            <h4>Código do Funcionário:</h4><input type="number" name="empCode" id="ipEmpCode">
+                        </div>
+                        <div class="line">
+                            <h4>Código do Cargo:</h4><input type="number" name="wageCode" id="ipWageCode">
+                        </div>
+                    </div>
+                    
+                    <div class="invalidFeedback"></div>
+    
+                    <div class="submitContent">
+                        <input class="btn" type="button" value="Cadastrar">
+                        <div class="sucessFeedback">
+                            Funcionário cadastrado!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+h4{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.inputContent{
+    margin-bottom: 0px;
+}
+
+.initialDivision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultDivision{
+    display: none; /*flex*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    display: inline-flex;
+}
+
+.label{
+    align-self: flex-end;
+}
+
+.btn{
+    margin-top: 15px;
+}
