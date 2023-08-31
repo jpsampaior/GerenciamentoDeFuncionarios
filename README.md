@@ -1,7 +1,5 @@
 # Gerenciamento De Funcionários
-<img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><img alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 <br>
 
@@ -11,7 +9,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jpsampaior/GerenciamentoDeFuncionarios?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jpsampaior/GerenciamentoDeFuncionarios?style=for-the-badge)
 
-<img src="previews/image.png" alt="Exemplo imagem">
+<img align= "center" src="previews/image.png" alt="Exemplo imagem">
 
 > Aplicação de gerenciamento de funcionários
 
