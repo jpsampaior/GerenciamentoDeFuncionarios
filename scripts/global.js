@@ -33,7 +33,6 @@ function cadastrarFuncionario(codigo, nome, codigoCargo) {
     localStorage.setItem('listaFuncionarios', JSON.stringify(listaFuncionarios));
 }
 
-
 function mostrarRelatorioFuncionarios(table) {
     listaFuncionarios.forEach(funcionario => {
         const row = $("<tr></tr>");
