@@ -15,6 +15,8 @@
 
 ## ☕ Usando o Gerenciador de Funcionários
 
+### [Vídeo de apresentação](youtu.be/l9wYtbTfcIY)
+
 ### Para usar Gerenciador de Funcionários, siga estas etapas:
 ```
 1. Clique em "entrar".
